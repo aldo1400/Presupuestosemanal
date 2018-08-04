@@ -24,6 +24,7 @@ class FormularioGasto extends Component{
             console.log(gasto);
 
             // agregarlo y evniarlo por props
+            this.props.agregarGasto(gasto);
 
             // resetear el formulario (opcional)
 
